@@ -14,16 +14,24 @@ A personalized, fully responsive portfolio website developed by **Krishna Kanwar
 ## 📸 Portfolio Screenshots
 
 ### Screenshot 1: Hero & About Me Section
-![Hero and About Section](./screenshots/hero-about.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/krishna25bcon1347-dot/portfolio/main/screenshots/hero-about.png" alt="Hero and About Section" width="850">
+</p>
 
 ### Screenshot 2: Skills & Project Cards with Search and Filter
-![Skills and Projects Showcase](./screenshots/skills-projects.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/krishna25bcon1347-dot/portfolio/main/screenshots/skills-projects.png" alt="Skills and Projects Showcase" width="850">
+</p>
 
 ### Screenshot 3: Grounded AI Chatbot in Action
-![Interactive Grounded AI Chatbot](./screenshots/ai-chatbot.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/krishna25bcon1347-dot/portfolio/main/screenshots/ai-chatbot.png" alt="Interactive Grounded AI Chatbot" width="850">
+</p>
 
 ### Screenshot 4: Dark Mode Theme
-![Dark Mode Theme View](./screenshots/dark-mode.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/krishna25bcon1347-dot/portfolio/main/screenshots/dark-mode.png" alt="Dark Mode Theme View" width="850">
+</p>
 
 ---
 
