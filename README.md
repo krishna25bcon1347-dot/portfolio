@@ -1,13 +1,13 @@
 # Krishna Kanwar — Personal Portfolio Website with API-Based Chatbot Integration
 
-[![Vercel Deployment](https://img.shields.io/badge/Deployed-Vercel-black?style=flat&logo=vercel)](https://portfolio-wexa.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-krishnakanwar--1347-blue?style=flat&logo=github)](https://github.com/krishnakanwar-1347/portfolio)
+[![Vercel Deployment](https://img.shields.io/badge/Deployed-Vercel-black?style=flat&logo=vercel)](https://portfolio-krishna-sigma.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-krishna25bcon1347--dot-blue?style=flat&logo=github)](https://github.com/krishna25bcon1347-dot/portfolio)
 
 A personalized, fully responsive portfolio website developed by **Krishna Kanwar** (Roll No: `25BCON1347`) for the **Internal Assessment Project**. The website showcases past GitHub projects, implements interactive real-time search & filter functionality, light/dark mode toggling, a live weather widget, and an AI-powered chatbot grounded in the student's portfolio information.
 
 ## 🚀 Live Website Link
 
-**[https://portfolio-wexa.vercel.app/](https://portfolio-wexa.vercel.app/)**
+**[https://portfolio-krishna-sigma.vercel.app/](https://portfolio-krishna-sigma.vercel.app/)**
 
 ---
 
@@ -46,19 +46,19 @@ A personalized, fully responsive portfolio website developed by **Krishna Kanwar
 ### 2. Showcase of 5 Required Projects (Task 2)
 Displayed as structured, responsive project cards with descriptions, technology badges, working GitHub links, and live application links:
 1. **Python Programs Collection:** Fibonacci Sequence Optimizer (DP Memoization & Tabulation), Factorial Large Number Analyzer, and Struct-to-Dict serialization utility.
-   - [Fibonacci Repository](https://github.com/jayeshparihar08-max/python-basics-25BCON1347-fibonacci)
-   - [Factorial Repository](https://github.com/jayeshparihar08-max/pyhton-basics-25BCON1347-factorial)
-   - [Struct-to-Dict Repository](https://github.com/jayeshparihar08-max/python-basics-25BCON1347-struct-to-dict)
-2. **Messy Python Code Improvement:** AST (Abstract Syntax Tree) parsing and regex-based code cleaner ensuring PEP 8 compliance.
-   - [Messy Python Code Repository](https://github.com/jayeshparihar08-max/messy-python-code)
+   - [Fibonacci Repository](https://github.com/krishna25bcon1347-dot/python-basics-25BCON1380-fibonacci)
+   - [Factorial Repository](https://github.com/krishna25bcon1347-dot/pyhton-basics-25BCON1071-factorial-main)
+   - [Struct-to-Dict Repository](https://github.com/krishna25bcon1347-dot/python-basics-25BCON1347-struct-to-dict)
+2. **Python Code Audit & Improvement:** Automated code-quality verification and README audit evaluating Python programs against factual implementation evidence.
+   - [Python Basics & Code Audit Repository](https://github.com/krishna25bcon1347-dot/python_basic_25bcon1347)
 3. **Bug Fixing Using Cursor AI:** Diagnostic and bug-resolution assistant correcting syntax and logical flaws in student grading scripts.
-   - [Bug Fixing Repository](https://github.com/jayeshparihar08-max/correcting-grade-25BCON1071-main)
+   - [Bug Fixing Repository](https://github.com/krishna25bcon1347-dot/correcting-grade-25BCON1347)
 4. **Interactive Quiz Application (Lecture 10):** Web-based quiz platform with interactive multiple-choice questions and real-time score tracking.
-   - [Quiz GitHub Repository](https://github.com/jayeshparihar08-max/QUIZ)
-   - [Live Quiz Application](https://quiz-wexa.vercel.app)
+   - [Quiz GitHub Repository](https://github.com/krishna25bcon1347-dot/QUIZ-PE)
+   - [Live Quiz Application](https://quiz-pe.vercel.app/)
 5. **Book Reading List Application (Lecture 11):** Digital bookshelf with status tracking ('Want to Read', 'Currently Reading', 'Completed') and LocalStorage persistence.
-   - [Reading List GitHub Repository](https://github.com/jayeshparihar08-max/reading_list)
-   - [Live Reading List Application](https://reading-list-teal-zeta.vercel.app/)
+   - [Reading List GitHub Repository](https://github.com/krishna25bcon1347-dot/books_reading_list)
+   - [Live Reading List Application](https://books-reading-list-swart.vercel.app/)
 
 ### 3. Interactive Project Search & Category Filter (Task 3 - Mandatory)
 - **Real-Time Search:** Visitors can search projects by title, description, or technology (e.g., `"Python"`, `"Quiz"`, `"Book"`, `"Algorithms"`).
@@ -91,7 +91,7 @@ Displayed as structured, responsive project cards with descriptions, technology 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/krishnakanwar-1347/portfolio.git
+   git clone https://github.com/krishna25bcon1347-dot/portfolio.git
    cd portfolio
    ```
 
@@ -118,5 +118,5 @@ Displayed as structured, responsive project cards with descriptions, technology 
 
 - **Name:** Krishna Kanwar
 - **Roll Number:** 25BCON1347
-- **GitHub:** [@krishnakanwar-1347](https://github.com/krishnakanwar-1347)
-- **Email:** [krishnakanwar1347@gmail.com](mailto:krishnakanwar1347@gmail.com)
+- **GitHub:** [@krishna25bcon1347-dot](https://github.com/krishna25bcon1347-dot)
+- **Email:** [krishna.25bcon1347@jecrcu.edu.in](mailto:krishna.25bcon1347@jecrcu.edu.in)

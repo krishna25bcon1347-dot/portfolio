@@ -12,9 +12,9 @@ const PORTFOLIO_DATA = {
   name: "Krishna Kanwar",
   role: "AI & Machine Learning Undergraduate (Roll No: 25BCON1347)",
   about: "Undergraduate Computer Science student at Jaipur, India, specializing in Artificial Intelligence and Machine Learning, with a strong focus on building intelligent multi-agent workflows, Python automation, and data-driven solutions.",
-  email: "krishnakanwar1347@gmail.com",
-  github: "https://github.com/krishnakanwar-1347",
-  livePortfolio: "https://portfolio-wexa.vercel.app/",
+  email: "krishna.25bcon1347@jecrcu.edu.in",
+  github: "https://github.com/krishna25bcon1347-dot",
+  livePortfolio: "https://portfolio-krishna-sigma.vercel.app/",
   skills: [
     "Python", "C++", "C", "Agentic AI", "Data Structures & Algorithms (DSA)",
     "HTML5", "CSS3", "JavaScript", "Git & GitHub", "Vercel Deployment", "REST APIs"
@@ -23,38 +23,38 @@ const PORTFOLIO_DATA = {
     {
       title: "Python Programs Collection",
       summary: "Collection of core algorithmic problems including Fibonacci Sequence Optimizer (using Memoization, Tabulation, Matrix Exponentiation), Factorial & Large Number Analyzer (handling large integer overflows via custom array logic), and Struct-to-Dict Serialization Utility.",
-      github: "https://github.com/jayeshparihar08-max/python-basics-25BCON1347-fibonacci",
+      github: "https://github.com/krishna25bcon1347-dot/python-basics-25BCON1380-fibonacci",
       links: [
-        { name: "Fibonacci Repo", url: "https://github.com/jayeshparihar08-max/python-basics-25BCON1347-fibonacci" },
-        { name: "Factorial Repo", url: "https://github.com/jayeshparihar08-max/pyhton-basics-25BCON1347-factorial" },
-        { name: "Struct-to-Dict Repo", url: "https://github.com/jayeshparihar08-max/python-basics-25BCON1347-struct-to-dict" }
+        { name: "Fibonacci Repo", url: "https://github.com/krishna25bcon1347-dot/python-basics-25BCON1380-fibonacci" },
+        { name: "Factorial Repo", url: "https://github.com/krishna25bcon1347-dot/pyhton-basics-25BCON1071-factorial-main" },
+        { name: "Struct-to-Dict Repo", url: "https://github.com/krishna25bcon1347-dot/python-basics-25BCON1347-struct-to-dict" }
       ],
       tech: "Python 3, Dynamic Programming, Data Serialization, Algorithms"
     },
     {
-      title: "Messy Python Code Improvement",
-      summary: "Automated code-quality refactoring tool that transforms unstructured, poorly formatted, or messy Python code into clean, PEP 8-compliant code using Python's Abstract Syntax Tree (AST) parsing and regex.",
-      github: "https://github.com/jayeshparihar08-max/messy-python-code",
-      tech: "Python, AST Parsing, PEP 8, Regular Expressions, Cursor AI"
+      title: "Python Code Audit & Improvement",
+      summary: "Automated code-quality verification and README audit evaluating Python programs against factual implementation evidence, eliminating invalid dependencies and enforcing strict PEP 8 standards.",
+      github: "https://github.com/krishna25bcon1347-dot/python_basic_25bcon1347",
+      tech: "Python, Code Audit, Fact Checking, PEP 8, Verification"
     },
     {
       title: "Bug Fixing Using Cursor AI",
       summary: "Diagnosed syntax errors, off-by-one boundary bugs, and logic flaws in student grading scripts. Identified root causes from tracebacks and corrected them using Cursor AI assistance.",
-      github: "https://github.com/jayeshparihar08-max/correcting-grade-25BCON1071-main",
+      github: "https://github.com/krishna25bcon1347-dot/correcting-grade-25BCON1347",
       tech: "Python, Debugging, Traceback Analysis, Cursor AI"
     },
     {
       title: "Interactive Quiz Application",
       summary: "Interactive web quiz platform developed in Lecture 10 featuring timed multiple-choice questions, live score tracking, instant feedback, and responsive layout.",
-      github: "https://github.com/jayeshparihar08-max/QUIZ",
-      live: "https://quiz-wexa.vercel.app",
+      github: "https://github.com/krishna25bcon1347-dot/QUIZ-PE",
+      live: "https://quiz-pe.vercel.app/",
       tech: "HTML5, CSS3, JavaScript (ES6), Vercel"
     },
     {
       title: "Book Reading List Application",
       summary: "Personal digital bookshelf application developed in Lecture 11. Allows users to catalog books, track reading status ('Want to Read', 'Currently Reading', 'Completed'), filter by genre, and persist state in localStorage.",
-      github: "https://github.com/jayeshparihar08-max/reading_list",
-      live: "https://reading-list-teal-zeta.vercel.app/",
+      github: "https://github.com/krishna25bcon1347-dot/books_reading_list",
+      live: "https://books-reading-list-swart.vercel.app/",
       tech: "HTML5, CSS3, JavaScript, LocalStorage, Vercel"
     }
   ]
@@ -71,10 +71,10 @@ Answer questions accurately, professionally, and concisely (under 75 words) grou
 - Skills: ${PORTFOLIO_DATA.skills.join(", ")}
 - Projects Completed:
   1. Python Programs Collection (Fibonacci DP Optimizer, Factorial Large Number Analyzer, Struct-to-Dict Converter).
-  2. Messy Python Code Improvement (PEP-8 refactoring with AST parsing).
+  2. Python Code Audit & Improvement (Code quality verification, README audit, and PEP 8 enforcement).
   3. Bug Fixing Using Cursor AI (Diagnosing & resolving traceback errors in grading program).
-  4. Interactive Quiz Application (Lecture 10 web quiz, live on Vercel at https://quiz-wexa.vercel.app).
-  5. Book Reading List Application (Lecture 11 library manager, live on Vercel at https://reading-list-teal-zeta.vercel.app/).
+  4. Interactive Quiz Application (Lecture 10 web quiz, live on Vercel at https://quiz-pe.vercel.app/).
+  5. Book Reading List Application (Lecture 11 library manager, live on Vercel at https://books-reading-list-swart.vercel.app/).
 - Weather App: OpenWeatherMap integration from Lecture 9.
 
 Always give accurate answers for questions like:
@@ -137,7 +137,7 @@ function getGroundedFallbackResponse(query) {
   if (q.includes("what projects") || q.includes("projects have you completed") || q.includes("list projects") || q.includes("show projects")) {
     return `Krishna has completed five major projects:
     <br>1. <strong>Python Programs Collection</strong> (Fibonacci, Factorial, Struct-to-Dict)
-    <br>2. <strong>Messy Python Code Improvement</strong> (AST refactoring to PEP 8)
+    <br>2. <strong>Python Code Audit & Improvement</strong> (Code quality verification & README audit)
     <br>3. <strong>Bug Fixing Using Cursor AI</strong> (Grading script diagnosis)
     <br>4. <strong>Interactive Quiz Application</strong> (Lecture 10 web app)
     <br>5. <strong>Book Reading List Application</strong> (Lecture 11 digital bookshelf).`;
@@ -155,23 +155,23 @@ function getGroundedFallbackResponse(query) {
   }
 
   if (q.includes("reading list") || q.includes("book") || q.includes("library")) {
-    return `The <strong>Book Reading List Application</strong> (Lecture 11) is a web application where users can catalog books, track status (Want to Read, Currently Reading, Completed), filter by genre, and persist state in LocalStorage. It is deployed live on Vercel at <a href="https://reading-list-teal-zeta.vercel.app/" target="_blank">reading-list-teal-zeta.vercel.app</a>.`;
+    return `The <strong>Book Reading List Application</strong> (Lecture 11) is a web application where users can catalog books, track status (Want to Read, Currently Reading, Completed), filter by genre, and persist state in LocalStorage. It is deployed live on Vercel at <a href="https://books-reading-list-swart.vercel.app/" target="_blank">books-reading-list-swart.vercel.app</a>.`;
   }
 
   if (q.includes("quiz")) {
-    return `The <strong>Interactive Quiz Application</strong> (Lecture 10) is a web-based quiz platform featuring interactive multiple-choice questions, real-time scoring, and dynamic DOM manipulation. You can try it live at <a href="https://quiz-wexa.vercel.app" target="_blank">quiz-wexa.vercel.app</a>.`;
+    return `The <strong>Interactive Quiz Application</strong> (Lecture 10) is a web-based quiz platform featuring interactive multiple-choice questions, real-time scoring, and dynamic DOM manipulation. You can try it live at <a href="https://quiz-pe.vercel.app/" target="_blank">quiz-pe.vercel.app</a>.`;
   }
 
-  if (q.includes("messy") || q.includes("refactor") || q.includes("ast")) {
-    return `The <strong>Messy Python Code Improvement</strong> project uses Python's Abstract Syntax Tree (AST) parsing and regular expressions to automatically clean unstructured code, fix indentation, remove dead code/unused imports, and enforce PEP 8 standards.`;
+  if (q.includes("messy") || q.includes("refactor") || q.includes("ast") || q.includes("audit")) {
+    return `The <strong>Python Code Audit & Improvement</strong> project evaluates code against factual README implementation claims and verifies code quality, removes dead code/unused dependencies, and enforces PEP 8 compliance.`;
   }
 
   if (q.includes("github") || q.includes("repo") || q.includes("code")) {
-    return `You can explore Krishna's repositories on GitHub at: <a href="https://github.com/krishnakanwar-1347" target="_blank">github.com/krishnakanwar-1347</a>.`;
+    return `You can explore Krishna's repositories on GitHub at: <a href="https://github.com/krishna25bcon1347-dot" target="_blank">github.com/krishna25bcon1347-dot</a>.`;
   }
 
   if (q.includes("contact") || q.includes("email") || q.includes("hire") || q.includes("reach")) {
-    return `You can contact Krishna directly via email at <a href="mailto:krishnakanwar1347@gmail.com">krishnakanwar1347@gmail.com</a> or connect on <a href="https://github.com/krishnakanwar-1347" target="_blank">GitHub</a>.`;
+    return `You can contact Krishna directly via email at <a href="mailto:krishna.25bcon1347@jecrcu.edu.in">krishna.25bcon1347@jecrcu.edu.in</a> or connect on <a href="https://github.com/krishna25bcon1347-dot" target="_blank">GitHub</a>.`;
   }
 
   if (q.includes("weather")) {
