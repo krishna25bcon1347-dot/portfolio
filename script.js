@@ -1,11 +1,15 @@
 // Portfolio Interactive Features: Theme Toggle, Project Search & Filter, Weather Widget
 
 document.addEventListener("DOMContentLoaded", () => {
-  // 1. Theme Toggle (Light / Dark Mode)
+  // 1. Theme Toggle (Defaults to Dark Mode first)
   const themeButton = document.getElementById("themeToggle");
   const savedTheme = localStorage.getItem("portfolio_theme");
 
-  if (savedTheme === "dark") {
+  // Open in dark mode first by default unless explicitly saved as 'light'
+  if (savedTheme === "light") {
+    document.body.classList.remove("dark-mode");
+    if (themeButton) themeButton.textContent = "Switch to Dark Mode";
+  } else {
     document.body.classList.add("dark-mode");
     if (themeButton) themeButton.textContent = "Switch to Light Mode";
   }

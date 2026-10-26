@@ -72,7 +72,7 @@ Displayed as structured, responsive project cards with descriptions, technology 
 - **Real-Time Search:** Visitors can search projects by title, description, or technology (e.g., `"Python"`, `"Quiz"`, `"Book"`, `"Algorithms"`).
 - **Category Filter Pills:** Quick filters for `All Projects`, `Python`, `Web Apps`, and `AI & Debugging`.
 - **Dynamic Count:** Shows exact number of matching projects with clear empty-state feedback.
-- **Theme Toggle:** Switch seamlessly between Light Mode and Dark Mode with persistent local storage.
+- **Theme Toggle:** Opens in Dark Mode first by default with seamless switching between Dark Mode and Light Mode, persisted via local storage.
 
 ### 4. API-Based Grounded Portfolio Chatbot (Task 6)
 - **Grounded Responses:** Answers questions grounded in Krishna's background, skills, and the 5 completed projects.
